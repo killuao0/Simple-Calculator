@@ -8,11 +8,11 @@ public class Main{
         char repeat= 'y';
         while (repeat== 'y'){
             System.out.println("enter the first number:");
-            double num1 = sc.nextInt();
+            double num1 = sc.nextDouble();
             System.out.println("enter your operator +,-,*,/");
             char operator = sc.next().charAt(0);
             System.out.println("enter second number:");
-            double num2 = sc.nextInt();
+            double num2 = sc.nextDouble();
             double result;
             if (operator == '+') {
                 result = num1 + num2;
